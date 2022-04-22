@@ -12,7 +12,7 @@ body {
     flex: 1 0 auto;
   }
 
-  .redes-sociais li{
+.redes-sociais li{
     vertical-align: top;
     display: inline;
     height: 100px;
