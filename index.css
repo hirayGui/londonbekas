@@ -6,11 +6,44 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
 
-  main {
+main {
     flex: 1 0 auto;
-  }
+}
+
+.nav-wrapper{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.nav-wrapper, #footer{
+    background-color: #000033;
+}
+
+#footer-copyright{
+    background-color: #010138;
+}
+
+#contact-info{
+    color: #fcfcfc;
+}  
+
+#contact-info:hover{
+    color: #fcfcfca6;
+    transition: 0.5s;
+}
+
+#contact-info i{
+    font-size: 20px;
+}
+
+#copyright-contact{
+    color: #fcfcfc;
+}
+
+#copyright-contact:hover{
+    color: #999898f1;
+}
 
 .redes-sociais li{
     vertical-align: top;
