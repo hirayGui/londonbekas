@@ -16,13 +16,16 @@ main {
     flex: 1 0 auto;
 }
 
+p{
+    font-size: 18px;
+}
+
 .title{
     color: #010138;
     text-align: center;
 }
 
 #inicio{
-    padding-top: 120px;
     color: #010138 !important;
 }
 
